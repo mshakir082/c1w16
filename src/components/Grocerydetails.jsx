@@ -26,8 +26,8 @@ console.log(data)
                       <p style={{textDecoration: "line-through"}}>M.R.P {mrp}</p>
                      
                       </div>
-                      <button className="btn btn-" onClick={()=>{<CartButton/>}}>Add to Card</button>
-                      <div ><CartButton/></div>
+                     
+                      <CartButton/>
                       </div>
                     </>
                   ) 
