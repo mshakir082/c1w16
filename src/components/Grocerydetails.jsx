@@ -18,7 +18,7 @@ console.log(data)
                data.map(({id,title,imgURL,mrp,sellingPrice})=>{
                   return(
                       <>
-                      <div className="elemDiv">
+                      <div className="elemDiv" id={id}>
                       <img src={imgURL} alt=""/>
                       <h6>{title}</h6>
                       <div style={{display:"flex",gap:"10px"}}>
